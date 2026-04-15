@@ -11,4 +11,9 @@
         <artifactsConfig config="drivers/oceanbase-artifacts.xml"/>
         <driversConfig config="drivers/oceanbase-drivers.xml"/>
     </extensions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="com.github.tjlee.oceanbasejdbcdriver.DriverInstaller"/>
+        <postStartupActivity implementation="com.github.tjlee.oceanbasejdbcdriver.DriverInstallerStartupActivity"/>
+    </extensions>
 </idea-plugin>

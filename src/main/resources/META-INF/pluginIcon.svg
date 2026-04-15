@@ -1,0 +1,59 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cylinderTop" gradientUnits="userSpaceOnUse" x1="7" y1="0" x2="33" y2="0">
+      <stop offset="0%"   stop-color="#8B92A0"/>
+      <stop offset="50%"  stop-color="#B8BCC8"/>
+      <stop offset="100%" stop-color="#8B92A0"/>
+    </linearGradient>
+
+    <linearGradient id="cylinderSide" gradientUnits="userSpaceOnUse" x1="7" y1="0" x2="33" y2="0">
+      <stop offset="0%"   stop-color="#6B7280"/>
+      <stop offset="50%"  stop-color="#9CA3AF"/>
+      <stop offset="100%" stop-color="#6B7280"/>
+    </linearGradient>
+
+    <linearGradient id="orangeWave" gradientUnits="userSpaceOnUse" x1="5" y1="0" x2="35" y2="0">
+      <stop offset="0%"   stop-color="#F97316"/>
+      <stop offset="50%"  stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+
+    <linearGradient id="blueWave" gradientUnits="userSpaceOnUse" x1="5" y1="0" x2="35" y2="0">
+      <stop offset="0%"   stop-color="#0284C7"/>
+      <stop offset="50%"  stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+
+    <linearGradient id="greenWave" gradientUnits="userSpaceOnUse" x1="5" y1="0" x2="35" y2="0">
+      <stop offset="0%"   stop-color="#10B981"/>
+      <stop offset="50%"  stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background database cylinder -->
+  <ellipse cx="20" cy="9" rx="13" ry="4" fill="url(#cylinderTop)" opacity="0.6"/>
+  <ellipse cx="20" cy="23" rx="13" ry="4" fill="url(#cylinderTop)" opacity="0.6"/>
+
+  <!-- OceanBase wave stripes -->
+  <path d="M5,10 Q8,8 11,10 T17,10 T23,10 T29,10 T35,10 L35,13 Q32,11 29,13 T23,13 T17,13 T11,13 T5,13 Z"
+        fill="url(#orangeWave)"/>
+
+  <path d="M5,13.5 Q8,11.5 11,13.5 T17,13.5 T23,13.5 T29,13.5 T35,13.5 L35,17 Q32,15 29,17 T23,17 T17,17 T11,17 T5,17 Z"
+        fill="url(#blueWave)"/>
+
+  <path d="M5,17.5 Q8,15.5 11,17.5 T17,17.5 T23,17.5 T29,17.5 T35,17.5 L35,21 Q32,19 29,21 T23,21 T17,21 T11,21 T5,21 Z"
+        fill="url(#greenWave)"/>
+
+  <!-- Cylinder outline -->
+  <ellipse cx="20" cy="9" rx="13" ry="4" fill="none" stroke="#4B5563" stroke-width="0.5" opacity="0.7"/>
+  <line x1="7" y1="9" x2="7" y2="23" stroke="#4B5563" stroke-width="0.5" opacity="0.5"/>
+  <line x1="33" y1="9" x2="33" y2="23" stroke="#4B5563" stroke-width="0.5" opacity="0.5"/>
+  <ellipse cx="20" cy="23" rx="13" ry="4" fill="none" stroke="#4B5563" stroke-width="0.5" opacity="0.7"/>
+
+  <!-- Text label -->
+  <text x="20" y="32" font-family="Arial, sans-serif" font-size="7" font-weight="bold"
+        text-anchor="middle" fill="#1F2937">OceanBase</text>
+  <text x="20" y="38" font-family="Arial, sans-serif" font-size="5.5" font-weight="600"
+        text-anchor="middle" fill="#6B7280">JDBC</text>
+</svg>
