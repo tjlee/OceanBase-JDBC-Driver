@@ -1,8 +1,8 @@
 # OceanBase JDBC Driver
 
 ![Build](https://github.com/tjlee/OceanBase-JDBC-Driver/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/31287)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/31287)
 
 <!-- Plugin description -->
 [OceanBase](https://www.oceanbase.com/) JDBC driver plugin for DataGrip and other JetBrains IDEs with database support.
