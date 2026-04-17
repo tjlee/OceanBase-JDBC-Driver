@@ -12,3 +12,6 @@
 - Native `jdbc:oceanbase://` URL scheme with host, port (default 2881), and database fields
 - Load balance URL template for multi-host HA setups (`jdbc:oceanbase:loadbalance://`)
 - MySQL-dialect compatibility: SQL completion, schema introspection, and DDL generation reuse the MySQL engine
+
+## [1.0.1] - 2026-04-17
+- Changed plugin icon
