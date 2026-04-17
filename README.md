@@ -15,7 +15,6 @@ Adds **OceanBase** as a native data source, so you can browse schemas, run queri
 - Supports OceanBase Connector/J versions 2.4.14, 2.4.15, 2.4.16, and 2.4.17
 - Native `jdbc:oceanbase://` URL scheme; default port 2881
 - Load balance connection template for multi-host HA setups
-- SQL completion, schema introspection, and DDL generation via MySQL-dialect compatibility
 <!-- Plugin description end -->
 
 ## Installation
